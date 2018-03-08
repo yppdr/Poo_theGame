@@ -20,5 +20,8 @@ public class Orc extends Personnages{
         this.endurance = 50;          
         
     }
+    public Orc(String n){
+        super(n);
+    }
     
 }

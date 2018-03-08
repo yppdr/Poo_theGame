@@ -19,4 +19,8 @@ public class Elfe extends Personnages{
         
     }
     
+    public Elfe(String n){
+        super(n);
+    }
+    
 }

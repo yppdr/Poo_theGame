@@ -19,7 +19,7 @@ public class Personnages {
     }
     
     public Personnages(String n){
-        this();
+        //this();
         this.nom = n;
     }
     
@@ -27,9 +27,9 @@ public class Personnages {
        cible.pv = cible.pv -(this.force - cible.endurance);
        
         if (cible.pv <= 0) {
-            System.out.println(cible.nom + " DEAD COMME UNE MERDE ");
+            System.out.println(cible.nom + " est mort comme une merde :( ");
         }else{
-            System.out.println(this.nom + " attaque " + cible.nom + " il lui reste " + cible.pv + " PV");
+            System.out.println(this.nom + " attaque " + cible.nom + " ,il lui reste " + cible.pv + " PV");
         }
     }    
 }

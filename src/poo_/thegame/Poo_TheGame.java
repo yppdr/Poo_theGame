@@ -21,10 +21,9 @@ public class Poo_TheGame {
      */
     public static void main(String[] args) {
         Personnages[] domeDuTonnere = new Personnages[2];
-        domeDuTonnere[0] = new Humain();
-        domeDuTonnere[0].nom = "Dieu";
-        domeDuTonnere[1] = new Elfe();
-        domeDuTonnere[1].nom = "Jo";
+        domeDuTonnere[0] = new Humain("Dieu");
+        domeDuTonnere[1] = new Elfe("Jo");
+
         int fin = 1000;
         
         while(fin > 0){

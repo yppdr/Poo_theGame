@@ -23,5 +23,7 @@ public class Humain extends Personnages{
     public Humain(String n){
         super(n);
     }
+
+    
     
 }
