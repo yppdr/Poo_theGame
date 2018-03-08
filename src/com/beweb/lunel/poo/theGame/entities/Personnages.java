@@ -9,7 +9,7 @@ package com.beweb.lunel.poo.theGame.entities;
  *
  * @author yannis
  */
-public class Personnages {
+public abstract class Personnages {
     
     public int force,endurance,pv;
     public String nom;
@@ -23,9 +23,7 @@ public class Personnages {
         this.nom = n;
     }
     
-    public void initAtributs(){
-        
-    }
+    abstract protected void initAtributs();
     
     public void attaquer(Personnages cible){
        cible.pv = cible.pv -(this.force - cible.endurance);

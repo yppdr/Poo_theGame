@@ -11,18 +11,12 @@ package com.beweb.lunel.poo.theGame.entities;
  */
 public class Elfe extends Personnages{
     
-    public Elfe(){
-
-     
-        
-    }
-    
     public Elfe(String n){
         super(n);
     }
 
     @Override
-    public void initAtributs() {
+    protected void initAtributs() {
         this.pv = 100;
         this.force= 50;
         this.endurance = 10;    
