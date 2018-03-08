@@ -14,15 +14,22 @@ public class Humain extends Personnages{
     
     public Humain(){
      
-        this.pv = 100;
-        this.force= 100;
-        this.endurance = 100;        
+       
         
     }
 
     public Humain(String n){
         super(n);
     }
+
+    @Override
+    public void initAtributs() {
+        this.pv = 100;
+        this.force= 100;
+        this.endurance = 100;        
+    }
+    
+    
 
     
     

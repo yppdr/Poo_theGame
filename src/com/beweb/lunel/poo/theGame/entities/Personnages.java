@@ -15,12 +15,16 @@ public class Personnages {
     public String nom;
     
     public Personnages(){
-        
+     this.initAtributs();   
     }
     
     public Personnages(String n){
-        //this();
+        this();
         this.nom = n;
+    }
+    
+    public void initAtributs(){
+        
     }
     
     public void attaquer(Personnages cible){

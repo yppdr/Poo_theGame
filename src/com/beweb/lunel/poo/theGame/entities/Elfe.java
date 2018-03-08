@@ -13,14 +13,21 @@ public class Elfe extends Personnages{
     
     public Elfe(){
 
-        this.pv = 100;
-        this.force= 50;
-        this.endurance = 10;       
+     
         
     }
     
     public Elfe(String n){
         super(n);
     }
+
+    @Override
+    public void initAtributs() {
+        this.pv = 100;
+        this.force= 50;
+        this.endurance = 10;    
+    }
+    
+    
     
 }
