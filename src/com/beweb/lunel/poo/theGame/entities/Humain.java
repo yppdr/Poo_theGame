@@ -19,4 +19,9 @@ public class Humain extends Personnages{
         this.endurance = 100;        
         
     }
+
+    public Humain(String n){
+        super(n);
+    }
+    
 }
