@@ -9,15 +9,14 @@ package com.beweb.lunel.poo.theGame.entities;
  *
  * @author yannis
  */
-public class Humain extends Personnage{
+public class Humain extends Personnages{
     
     
     public Humain(){
      
         this.pv = 100;
         this.force= 100;
-        this.endurance = 100;
-        this.nom = "Humain";          
+        this.endurance = 100;        
         
     }
 }

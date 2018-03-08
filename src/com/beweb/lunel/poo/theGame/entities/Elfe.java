@@ -9,14 +9,13 @@ package com.beweb.lunel.poo.theGame.entities;
  *
  * @author yannis
  */
-public class Elfe extends Personnage{
+public class Elfe extends Personnages{
     
     public Elfe(){
 
         this.pv = 100;
         this.force= 50;
-        this.endurance = 10;
-        this.nom = "Elfe";        
+        this.endurance = 10;       
         
     }
     

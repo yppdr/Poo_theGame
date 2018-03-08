@@ -5,9 +5,8 @@
  */
 package poo_.thegame;
 
-import com.beweb.lunel.poo.theGame.entities.Personnage;
-import com.beweb.lunel.poo.theGame.entities.Humain;
-import com.beweb.lunel.poo.theGame.entities.Orc;
+import com.beweb.lunel.poo.theGame.entities.Personnages;
+
 
 /**
  *
@@ -19,11 +18,8 @@ public class Poo_TheGame {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       /**
-        Humain h = new Humain();
-        h.attaquer();
-       attaquer a = new attaquer("Orc", "Elfe");**/
-       
+        Personnages[] domeDuTonnere = new Personnages[2];
+        
     }
     
 }

@@ -9,7 +9,7 @@ package com.beweb.lunel.poo.theGame.entities;
  *
  * @author yannis
  */
-public class Orc extends Personnage{
+public class Orc extends Personnages{
     
     
     
@@ -17,8 +17,7 @@ public class Orc extends Personnage{
 
         this.pv = 100;
         this.force= 150;
-        this.endurance = 50;
-        this.nom = "Orc";           
+        this.endurance = 50;          
         
     }
     
