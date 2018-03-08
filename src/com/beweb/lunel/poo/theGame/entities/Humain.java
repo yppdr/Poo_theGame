@@ -16,7 +16,7 @@ public class Humain extends Personnages{
     }
 
     @Override
-    protected void initAtributs() {
+    public void initAtributs() {
         this.pv = 100;
         this.force= 100;
         this.endurance = 100;        

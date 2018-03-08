@@ -11,15 +11,6 @@ package com.beweb.lunel.poo.theGame.entities;
  */
 public class Orc extends Personnages{
     
-    
-    
-    public Orc(){
-
-        this.pv = 100;
-        this.force= 150;
-        this.endurance = 50;          
-        
-    }
     public Orc(String n){
         super(n);
     }

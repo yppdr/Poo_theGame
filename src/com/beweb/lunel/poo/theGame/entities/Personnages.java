@@ -5,11 +5,14 @@
  */
 package com.beweb.lunel.poo.theGame.entities;
 
+import com.beweb.lunel.poo.theGame.entities.interfaces.ActionInterface;
+import com.beweb.lunel.poo.theGame.entities.interfaces.Initializable;
+
 /**
  *
  * @author yannis
  */
-public abstract class Personnages {
+public abstract class Personnages implements Initializable,ActionInterface{
     
     public int force,endurance,pv;
     public String nom;
@@ -23,8 +26,7 @@ public abstract class Personnages {
         this.nom = n;
     }
     
-    abstract protected void initAtributs();
-    
+    @Override
     public void attaquer(Personnages cible){
        cible.pv = cible.pv -(this.force - cible.endurance);
        

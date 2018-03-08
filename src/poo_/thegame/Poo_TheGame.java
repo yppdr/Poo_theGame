@@ -8,6 +8,7 @@ package poo_.thegame;
 import com.beweb.lunel.poo.theGame.entities.Elfe;
 import com.beweb.lunel.poo.theGame.entities.Humain;
 import com.beweb.lunel.poo.theGame.entities.Personnages;
+import com.beweb.lunel.poo.theGame.entities.interfaces.ActionInterface;
 
 
 /**
@@ -35,7 +36,12 @@ public class Poo_TheGame {
                 domeDuTonnere[1].attaquer(domeDuTonnere[0]);
                 fin = domeDuTonnere[0].pv;
             }
+            
         }
+    }
+    
+    public static void action(ActionInterface object,Personnages cible){
+        object.attaquer(cible);
     }
     
 }

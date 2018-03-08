@@ -16,7 +16,7 @@ public class Elfe extends Personnages{
     }
 
     @Override
-    protected void initAtributs() {
+    public void initAtributs() {
         this.pv = 100;
         this.force= 50;
         this.endurance = 10;    
